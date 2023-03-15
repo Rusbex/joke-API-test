@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 2rem;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+#button {
+    padding: 1rem 2rem;
+    background-color: darkorange;
+    color: white;
+    font-size: 20px;
+}
+
+
+#setup{
+    padding-top: 20px;
+    color: black;
+}
+
+#punchline {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: black;
+}
+
+#error {
+    color: #ff4d51;
+}
+#content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
